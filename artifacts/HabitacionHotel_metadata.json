@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "book",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentstatus",
+				"outputs": [
+					{
+						"internalType": "enum HabitacionHotel.Room",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Clas7_ejer1.sol": "HabitacionHotel"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Clas7_ejer1.sol": {
+			"keccak256": "0xf14d1fec243a6ba1397305de16aef4dde4e6a581cb539714e341e021135e9755",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4aeef94572607df12da05805b925b99444ace9203be6675995123576b9c67b79",
+				"dweb:/ipfs/QmUr7UjAYYRF9cpG1FQTNeizHW8U5ce7nLVp2zaAmjR3Sj"
+			]
+		}
+	},
+	"version": 1
+}
